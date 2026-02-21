@@ -154,6 +154,7 @@ private fun AppInfoSettings(packageInfoPresenter: PackageInfoPresenter) {
             ManageAgentAppFunctionAccessPreference(app)
             AppStorageScopesPreference(app)
             AppContactScopesPreference(app)
+            AppAppsScopesPreference(app)
             AppStoragePreference(app)
             InstantAppDomainsPreference(app)
             AppDataUsagePreference(app)
