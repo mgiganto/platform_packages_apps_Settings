@@ -24,6 +24,8 @@ import com.android.settings.spa.about.AboutPhonePageProvider
 import com.android.settings.spa.app.AllAppListPageProvider
 import com.android.settings.spa.app.AppsMainPageProvider
 import com.android.settings.spa.app.appcompat.UserAspectRatioAppsPageProvider
+import com.android.settings.spa.app.appinfo.AppAppsScopesPageProvider
+import com.android.settings.spa.app.appinfo.AppAppsScopesPickerPageProvider
 import com.android.settings.spa.app.appinfo.AppInfoSettingsProvider
 import com.android.settings.spa.app.appinfo.CloneAppInfoSettingsProvider
 import com.android.settings.spa.app.backgroundinstall.BackgroundInstalledAppsPageProvider
@@ -112,6 +114,8 @@ open class SettingsSpaEnvironment(context: Context) : SpaEnvironment(context) {
             com.android.settings.network.telephony.carriersettingsoverride.CarrierSettingsOverridesProvider,
             AllAppListPageProvider,
             AppInfoSettingsProvider,
+            AppAppsScopesPageProvider,
+            AppAppsScopesPickerPageProvider,
             SpecialAppAccessPageProvider,
             NotificationMainPageProvider,
             AppListNotificationsPageProvider.AllApps,

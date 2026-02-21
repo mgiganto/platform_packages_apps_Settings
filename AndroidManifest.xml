@@ -5753,6 +5753,16 @@
         <activity android:name=".spa.SpaAppBridgeActivity" android:exported="false"/>
 
         <activity
+            android:name=".spa.app.appinfo.AppsScopeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.settings.APPS_SCOPE_DETAILS" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".spa.search.SettingsSpaSearchLandingActivity"
             android:exported="true">
             <intent-filter android:priority="1">

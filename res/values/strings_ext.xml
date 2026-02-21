@@ -93,6 +93,44 @@ No query or data is sent to the server. These files contain orbits and statuses 
 
     <string name="storage_scopes">Storage Scopes</string>
 
+    <string name="apps_scope">Apps Scope</string>
+    <string name="apps_scopes_add_package">Manage visibility</string>
+    <string name="apps_scopes_allowed_packages_title">Allowed apps</string>
+    <string name="apps_scopes_allowed_shared_cert_apps">Allowed shared certificate apps</string>
+    <string name="apps_scopes_allowed_system_apps">Allowed system apps</string>
+    <string name="apps_scopes_allowed_user_apps">Allowed user apps</string>
+    <string name="apps_scopes_deselect_visible">Deselect visible</string>
+    <string name="apps_scopes_filter_all">Show all</string>
+    <string name="apps_scopes_filter_disabled">Show disabled</string>
+    <string name="apps_scopes_filter_enabled">Show enabled</string>
+    <string name="apps_scopes_main_switch">Enable Apps Scope</string>
+    <string name="apps_scopes_restore">Restore to default</string>
+    <string name="apps_scopes_restore_summary">Delete configuration and disable Apps Scope</string>
+    <string name="apps_scopes_restrict_all">Restrict all visible</string>
+    <string name="apps_scopes_restrict_all_dialog_title">Select apps to restrict</string>
+    <string name="apps_scopes_restrict_all_option_all">All apps</string>
+    <string name="apps_scopes_restrict_all_option_system">System apps</string>
+    <string name="apps_scopes_restrict_all_option_user">User apps</string>
+    <string name="apps_scopes_restrict_all_summary">Restrict visibility for all apps in select categories</string>
+    <string name="apps_scopes_restrict_queries">Restrict visibility of user apps</string>
+    <string name="apps_scopes_restrict_rules_to_visible">Restrict rules to only visible apps</string>
+    <string name="apps_scopes_restrict_self">Restrict self-visibility</string>
+    <string name="apps_scopes_restrict_shared_cert">Restrict visibility of same-cert apps</string>
+    <string name="apps_scopes_restrict_system">Restrict visibility of system apps</string>
+    <string name="apps_scopes_restricted_shared_cert_apps">Restricted shared certificate apps</string>
+    <string name="apps_scopes_restricted_system_apps">Restricted system apps</string>
+    <string name="apps_scopes_restricted_user_apps">Restricted user apps</string>
+    <string name="apps_scopes_select_visible">Select visible</string>
+    <string name="apps_scopes_show_only_visible">Show only visible apps</string>
+    <string name="apps_scopes_summary_disabled">Disabled</string>
+    <string name="apps_scopes_summary_enabled">Enabled</string>
+    <string name="apps_scopes_visibility_title">Apps visibility</string>
+    <string name="apps_scopes_visible_shared_cert_apps">Shared cert apps</string>
+    <string name="apps_scopes_visible_system_apps">System apps</string>
+    <string name="apps_scopes_visible_user_apps">User apps</string>
+    <string name="apps_scopes_no_apps_match">No apps match this criteria</string>
+    <string name="apps_scopes_filter_options">Filter options</string>
+
     <string name="conn_checks_grapheneos_server">GrapheneOS server</string>
     <string name="conn_checks_google_server">Standard (Google) server</string>
     <string name="conn_checks_disabled">Off</string>
